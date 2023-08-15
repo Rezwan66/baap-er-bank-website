@@ -20,8 +20,8 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     */
     // STEP 3: verify email and password (and check if valid user or not)
     if(email === 'sontan@baap.com' && password === 'secret'){
-        console.log('valid user');
+        window.location.href = 'bank.html'
     }else{
-        console.log('invalid user');
+        alert('invalid user');
     }
 })
